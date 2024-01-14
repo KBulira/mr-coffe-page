@@ -1,0 +1,320 @@
+/*font-face {
+    
+    src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap" rel="stylesheet">);
+}*/
+div.href{text-align: right;
+color:#FAFAFA;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+margin-right: 80px;
+font-size: 14px;
+vertical-align: top;
+padding-top: 1px;
+word-spacing: 25px;
+}
+.href:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
+
+a {color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+word-spacing: 5px;}
+
+body{width: 1440px;
+height: 3147px;
+background: #F5F5F5;
+overflow: visible; }
+
+/* Set paragraph text to be lighter. */
+p {font-weight: lighter;}
+
+#homepage {
+width: 1440px;
+height: 3147px;
+background: #F5F5F5}
+
+header{
+font-family: 'Architects Daughter';
+background-color: #6A7B8B;
+color: white;
+width: 1440px;
+height: 100px;}
+
+#full_logo_white{ width: 157px;
+height: 56px;
+text-align: left;
+padding-left: 50px;
+padding-top: 10px ;}
+
+#logo_mrcoffee{ width: 207px;
+height: 207px;
+margin:0 auto;
+display:block;
+margin-left: 600px;}
+
+#mr_coffee_salle{width: 1247px;
+height: 795px;
+margin-left: 100px;}
+
+span.napis{ display:block;
+position:absolute;
+    bottom:0;
+    left: 394px;;
+    text-align:center;
+    width: 689px; a.center;
+    height: 55px;
+color: #FFFFFF;
+font-size: 40px; 
+top: 500px;}
+
+h1{color:#5C5B5B;
+font-size: 40px;
+padding-top: 20px;
+padding-bottom: 70px;
+margin-left: 10px;}
+
+p {display: flex;
+flex-direction: column;}
+
+table.one{padding-bottom: 70px;
+float: center;
+margin-left: 200px;
+color: #FFFFFF;
+width:70%;
+height: 70%;
+border-style:#979797;}
+
+tbody.one{border-style:double;
+    border-radius: 15px;
+    line-height: 1.2em;
+    background-image: linear-gradient(42deg,#6A7B8B,#979797)}
+
+table.two{float:center;
+box-align:justify;
+width:500;
+margin-left: 100px;
+padding-bottom: 90px;}
+
+a.przycisk {
+float: auto;
+width: 332px;
+height: 77px;;
+padding: 20px 25px;
+background-color: #6A7B8B;
+color: #FFFFFF;
+text-align: center;
+text-decoration: none;
+font-size: 26px;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px;
+margin-top: 20px;
+margin-left: 600px;}
+                                
+a.nacisk{font-size: 40px;
+padding: 20px 25px;
+text-align: center;
+margin-top: 20px;
+margin-left: 600px;}
+  
+footer{
+background-color:#6A7B8B;
+color: white;
+text-align: center;
+margin-top:200px;
+font-size: 25px;
+margin-left: 15px;
+width: 1440px;
+height: 142px;
+position: relative;
+bottom: 0;}
+* {
+margin: 0px 0px;
+padding: 0px 0px;}
+html, body {
+height: 100%;}
+#container{
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: bottom -27px;}
+#footer, #push {
+clear:both; 
+height: 27px;}
+
+footer.logo_blanc{width:53px;
+height: 78px;
+text-align: left;}
+#logo_linkedin{width: 28px;
+height: 28px;
+margin-right: 20px;}
+#logo_twitter{width: 28px;
+height: 28px;
+margin-right: 20px;}
+#logo_facebook{width: 28px;
+height: 28px;}
+
+div.logo_social{padding-top: 20px;
+float: center;}
+
+#footer{background-color:#6A7B8B;
+color: white;
+text-align: center;
+margin-top:200px;
+font-size: 25px;
+margin-left: 15px;
+width: 1440px;
+height: 142px;
+position: relative;
+padding-top: 30px;
+float: center;}
+
+
+td{text-align: center;
+color: #FFFFFF;}
+
+#logo_blanc{width: 53px;
+height: 78px;
+float: left;
+margin-left:50px;}
+
+h2{margin-left:auto;
+margin-top:60px;
+font-size: 40px;
+width:994px;
+height:55PX;
+color: #5C5B5B;}
+
+#icon_open {
+width: 107px;
+height: 107px;
+margin: 15px;
+margin-left: 100px;}
+
+
+
+h3{font-size: 26px;
+padding-top: 80px;
+color: #5C5B5B;
+padding-bottom: 40px;}
+
+
+h4{font-size: 24px;}
+h5{font-size: 16px;}
+h7{color: #5C5B5B;
+font-size: 26px;}
+h6{color: #5C5B5B;
+font-size: 26px;}
+h8{font-size: 26px;
+text-align: center;
+margin-left: 300px;
+padding-bottom: 270px;}
+
+h9{font-size: 32px;
+text-align: center;
+margin-left: 300px;
+padding-top: 70px;}
+h10{font-size: 32px;
+margin-left: 480px;
+padding-top: 300px;}
+h11{color: #5C5B5B; 
+font-size:24px;}
+
+.center {
+margin-left: auto;
+margin-right: auto;}
+
+#trois_cafés{width: 505px;
+height: 756,42px;
+float: right;
+padding-top: 30px;
+padding-right: 100px;
+padding-bottom: 100px;
+padding-left: 200px;}
+
+#carte_contact{width: 810px;
+height: 608px;
+text-align: center;
+margin-left: 250px;
+margin-top: 100px;}
+
+p{text-align: left;
+margin-left: 70px;
+padding-top: 70px;
+padding-bottom: 10px;}
+
+#mrcoffee_salle2{width: 535px;
+height: 612,48px;
+padding-left:70px;
+padding-top: 220px;
+padding-bottom: 200px;}
+
+p1{margin-right: 300px;
+color: #5C5B5B;
+float: right;
+margin-bottom: 50px;
+font-size: 40px;
+padding-top: 20px;}
+
+p2{text-align: center;
+margin-left: 130px;}
+
+p3{margin-left: 250px;}
+
+p4{margin-left: 250px;}
+
+h12{margin-right: 180px;
+color: #5C5B5B;
+margin-bottom: 10px;
+float:right;
+font-size: 24px;}
+
+section.p2{margin-bottom: 50px;}    
+
+form{margin-left: 400px;}
+
+.formField{font: inherit; 
+border: 1px solid #6A7B8B;
+border-radius: 3px;
+margin: 3px 0 10px 0;
+padding: 3px 0;
+width: 700px; height: 58px;
+margin-left: 0px;
+background-color: #596A7B8B;}
+textarea.formField{width: 700px;
+height: 160px;
+float: center;
+margin-left: 0px;
+background-color:linear-gradient(#596A7B8B, #979797 35%);}
+
+.p5,button{background-color: #596A7B8B;
+    border: 1px solid #596A7B8B;
+    line-height: 32px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding: 0 25px;
+    border-radius: 3px;
+    width: 200px;
+    height:100px;
+    margin-left: 200px;}
+button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  button.clickConfirm{text-align: center;
+text-decoration: dotted;}
+

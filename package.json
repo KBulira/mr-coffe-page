@@ -1,0 +1,20 @@
+{
+  "name": "express_duo",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "lint:fix": "eslint --fix src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "eslint": "^8.56.0"
+  },
+  "description": ""
+}

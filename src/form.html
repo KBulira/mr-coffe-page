@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-EN" lang="fr-FR">
+<head>
+  <title>MR.COFFEE</title>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="application.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src ="./contact_form.js"></script>
+<script src="./validation.js"></script>
+<script src="./envoyer.js"></script>
+</head>
+    <body>
+        <header>
+            <div class="full_logo_white"><img id="full_logo_white" src="assets/full_logo_white.png" alt="full_logo_white">  </div> 
+            <div class="href"><a href="index.html">Accueil</a>
+         <a href="about.html">Qui sommes-nous?</a>
+         <a href="#">Nous contacter</a></div>
+        </header>
+        <div img="logo_mrcoffee">
+            <img id="logo_mrcoffee" src="assets/logo_mrcoffee.png" alt="logo_mrcoffee">
+          </div>
+          <section class="p2">
+            <h2><p2>Dites nous tout !</p2></h2></section>
+            <div id="send_form_status"></div>
+            <form method="post" action="On vous attend !" id="contact_form">
+     <div><label for="name">Nom*</label></div>
+     <div><input type="text" Nom="name" id="name" class="formField" /></div>
+     <div><label for="name">Prénom*</label></div>
+     <div><input type="text" Prénom="name" id="name" class="formField" /></div>
+     <div><label for="phone">Téléphone</label></div>
+     <div><input type="text" Téléphone="phone" id="phone" class="formField" /></div>
+     <div><label for="email">Adresse mail*</label></div>
+     <div><input type="text" Adresse mail="email" id="email" class="formField" /></div>
+     <div><label for="message">Message*</label></div>
+     <div><textarea name="message" id="message" class="formField"></textarea></div>
+     <div class="status"></div>   
+    
+    </form>
+    
+    <center><button onclick='validateForm()'class="button"> ENVOYER</button></center>
+    <button onclick="clickConfirm()" class="button"> ENVOYER</button>
+    <a href="" button onclick="window.open('assets/merci.png','targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=800px, height=550px, top=25px left=120px'); return false;">click here</a> 
+    
+          <h7><p3><b>Mr.Coffee</b><br/>
+            <p3>15 place Jules Guesde<br/>
+            <p3>75006 Paris</p3></br></br>
+            <p4>Tel : +33 9 46 25 78 45<br/>
+            <p4>Mail : contact@mr-coffee.com</p4></h7><br/>
+            <div img="carte_contact">
+                <img id="carte_contact" src="assets/carte_contact.png" alt="carte_contact">
+              </div>
+              <div id="footer">
+                <div class="logo_blanc"><img id="logo_blanc" src="assets/logo_blanc.png" alt="logo_blanc"> </div>
+                <h5>Suivez nous sur les réseaux sociaux !</h5>
+                <div class="logo_social">
+                  <img id="logo_linkedin" src="assets/logo_linkedin.png" alt="logo_linkedin">
+                  <img id="logo_twitter" src="assets/logo_twitter.png" alt="logo_twitter">
+                  <img id="logo_facebook" src="assets/logo_facebook.png" alt="logo_facebook">
+                </div>
+              </div>
+    </body>
+</html>
